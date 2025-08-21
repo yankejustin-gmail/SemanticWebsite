@@ -1,6 +1,6 @@
 # Semantic Gallery Website
 
-A modern, beautiful website for the Semantic Gallery Android app - the AI-powered photo organizer with semantic search capabilities.
+A modern, beautiful website for the Semantic Gallery Android app: the AI-powered photo organizer with semantic search capabilities.
 
 ## 🚀 Overview
 
