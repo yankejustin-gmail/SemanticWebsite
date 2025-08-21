@@ -114,14 +114,14 @@ For questions about the website:
 - Contact the development team
 
 For questions about the Semantic Gallery app:
-- Visit the [main repository](https://github.com/semanticgallery/SemanticGallery)
+- Visit the [main repository](https://github.com/ysSemanticSystems/SemanticGallery)
 - Check the app's documentation
 
 ## 🔗 Links
 
-- [Semantic Gallery App Repository](https://github.com/semanticgallery/SemanticGallery)
+- [Semantic Gallery App Repository](https://github.com/ysSemanticSystems/SemanticGallery)
 - [Privacy Policy](/privacy-policy.html)
-- [GitHub Issues](https://github.com/semanticgallery/SemanticGallery/issues)
+- [GitHub Issues](https://github.com/ysSemanticSystems/SemanticGallery/issues)
 
 ---
 
