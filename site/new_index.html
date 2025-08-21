@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Semantic Gallery - AI Photo Organizer</title>
+    <meta name="description" content="Smart AI gallery with semantic search. Find photos by describing what you remember. Privacy-focused, local AI processing." />
+    <meta name="keywords" content="photo gallery, ai gallery, semantic search, photo organizer, ai photo search, smart gallery, photo clustering, ai photo organizer" />
+    <meta name="author" content="Semantic Gallery" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://semanticgallery.app/">
+    <meta property="og:title" content="Semantic Gallery - AI Photo Organizer">
+    <meta property="og:description" content="Smart AI gallery with semantic search. Find photos by describing what you remember.">
+    <meta property="og:image" content="https://semanticgallery.app/images/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://semanticgallery.app/">
+    <meta property="twitter:title" content="Semantic Gallery - AI Photo Organizer">
+    <meta property="twitter:description" content="Smart AI gallery with semantic search. Find photos by describing what you remember.">
+    <meta property="twitter:image" content="https://semanticgallery.app/images/og-image.jpg">
+
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#6366f1">
+
+    <link rel="stylesheet" href="/styles.css?v=2.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <div class="logo-icon">🧠</div>
+          <span class="logo-text">Semantic Gallery</span>
+        </div>
+        <div class="nav-links">
+          <a href="#features" class="nav-link">Features</a>
+          <a href="#download" class="nav-link">Download</a>
+          <a href="#privacy" class="nav-link">Privacy</a>
+          <a href="#contact" class="nav-link">Contact</a>
+          <a href="https://github.com/semanticgallery" class="nav-link github-link" target="_blank">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+            GitHub
+          </a>
+        </div>
+        <div class="mobile-menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-text">🚀 AI-Powered Photo Organization</span>
+          </div>
+          <h1 class="hero-title">
+            Find Photos by<br>
+            <span class="gradient-text">What You Remember</span>
+          </h1>
+          <p class="hero-subtitle">
+            Transform your photo experience with Semantic Gallery, the intelligent photo gallery that understands context, not just keywords. Find that perfect photo by describing what you remember.
+          </p>
+          <div class="hero-buttons">
+            <a href="#download" class="btn btn-primary">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 8px;">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                <polyline points="7 10 12 15 17 10"/>
+                <line x1="12" y1="15" x2="12" y2="3"/>
+              </svg>
+              Download APK
+            </a>
+            <a href="#features" class="btn btn-secondary">
+              Learn More
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Privacy-Focused</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">Offline</span>
+              <span class="stat-label">No Internet Required</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">AI</span>
+              <span class="stat-label">Powered</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="phone-mockup">
+            <div class="phone-screen">
+              <div class="search-demo">
+                <div class="search-input">
+                  <span class="search-icon">🔍</span>
+                  <span class="search-text">cliff overlooking water</span>
+                </div>
+                <div class="search-results">
+                  <div class="result-item">
+                    <div class="result-image"></div>
+                    <div class="result-text">Perfect cliff photo</div>
+                  </div>
+                  <div class="result-item">
+                    <div class="result-image"></div>
+                    <div class="result-text">Ocean view</div>
+                  </div>
+                  <div class="result-item">
+                    <div class="result-image"></div>
+                    <div class="result-text">Sunset at beach</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="features" class="features">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Revolutionary Photo Search</h2>
+          <p class="section-subtitle">Experience the future of photo organization with cutting-edge AI technology</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">🧠</div>
+            <h3 class="feature-title">Semantic Search</h3>
+            <p class="feature-description">Describe what you remember, not just what you search for. Find photos by context, objects, or scenes.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🔒</div>
+            <h3 class="feature-title">Privacy First</h3>
+            <p class="feature-description">All AI processing happens locally on your device. Your photos never leave your phone.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3 class="feature-title">Lightning Fast</h3>
+            <p class="feature-description">Optimized for modern Android devices with smooth performance even with thousands of photos.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🎯</div>
+            <h3 class="feature-title">Smart Clustering</h3>
+            <p class="feature-description">Automatically groups similar photos together based on visual similarity and content.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🌙</div>
+            <h3 class="feature-title">Modern Design</h3>
+            <p class="feature-description">Beautiful Material Design 3 interface with dark/light themes and intuitive navigation.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">📱</div>
+            <h3 class="feature-title">Native Android</h3>
+            <p class="feature-description">Built with Kotlin and Jetpack Compose for the best native Android experience.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="download">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Download Semantic Gallery</h2>
+          <p class="section-subtitle">Get started with AI-powered photo organization today</p>
+        </div>
+
+        <div class="download-content">
+          <div class="download-info">
+            <div class="download-card">
+              <h3>🚀 Quick Start</h3>
+              <div class="requirements">
+                <div class="requirement">
+                  <span class="check">✅</span>
+                  <span>Android 7.0+ (API 24)</span>
+                </div>
+                <div class="requirement">
+                  <span class="check">✅</span>
+                  <span>4GB RAM minimum</span>
+                </div>
+                <div class="requirement">
+                  <span class="check">✅</span>
+                  <span>Free storage space (~100MB)</span>
+                </div>
+                <div class="requirement">
+                  <span class="check">✅</span>
+                  <span>Camera and storage permissions</span>
+                </div>
+              </div>
+
+              <div class="warning-box">
+                <h4>⚠️ Development Version</h4>
+                <p>This is a development version that requires setup of AI model files. The app contains placeholder files that must be replaced with actual model files for proper functionality.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="download-actions">
+            <div class="download-main">
+              <a href="https://github.com/semanticgallery/SemanticGallery/releases/latest" class="btn btn-download" target="_blank">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                  <polyline points="7 10 12 15 17 10"/>
+                  <line x1="12" y1="15" x2="12" y2="3"/>
+                </svg>
+                Download Latest APK
+              </a>
+
+              <div class="qr-code">
+                <div class="qr-placeholder">
+                  <span>📱</span>
+                  <p>Scan to download on mobile</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="setup-guide">
+              <h4>📋 Setup Instructions</h4>
+              <ol>
+                <li>Enable "Install from Unknown Sources" in your Android settings</li>
+                <li>Download the APK file using the button above</li>
+                <li>Open the downloaded file to install</li>
+                <li>Follow the in-app setup instructions to download AI models</li>
+                <li>Grant camera and storage permissions when prompted</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacy" class="privacy">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Privacy & Security</h2>
+          <p class="section-subtitle">Your privacy is our top priority</p>
+        </div>
+
+        <div class="privacy-content">
+          <div class="privacy-main">
+            <div class="privacy-highlight">
+              <div class="highlight-icon">🔒</div>
+              <h3>All Processing is Local</h3>
+              <p>Semantic Gallery processes all photos locally on your device using TensorFlow Lite. Your photos never leave your phone or touch the internet.</p>
+            </div>
+
+            <div class="privacy-features">
+              <div class="privacy-feature">
+                <span class="privacy-icon">📱</span>
+                <span>No cloud uploads</span>
+              </div>
+              <div class="privacy-feature">
+                <span class="privacy-icon">🔍</span>
+                <span>No usage tracking</span>
+              </div>
+              <div class="privacy-feature">
+                <span class="privacy-icon">📊</span>
+                <span>No analytics</span>
+              </div>
+              <div class="privacy-feature">
+                <span class="privacy-icon">🌐</span>
+                <span>Works offline</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="privacy-details">
+            <a href="/privacy-policy.html" class="btn btn-outline">Read Full Privacy Policy</a>
+            <div class="permissions-info">
+              <h4>Required Permissions</h4>
+              <ul>
+                <li><strong>Camera:</strong> For taking new photos</li>
+                <li><strong>Storage:</strong> For accessing your photo library</li>
+                <li><strong>Internet:</strong> Optional, for future features</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get in Touch</h2>
+          <p class="section-subtitle">Questions about Semantic Gallery?</p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-card">
+            <div class="contact-icon">📧</div>
+            <h3>Email Support</h3>
+            <p>support@semanticgallery.app</p>
+            <a href="mailto:support@semanticgallery.app" class="btn btn-outline">Send Email</a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">🐛</div>
+            <h3>Report Issues</h3>
+            <p>Found a bug or have suggestions?</p>
+            <a href="https://github.com/semanticgallery/SemanticGallery/issues" class="btn btn-outline" target="_blank">GitHub Issues</a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">💝</div>
+            <h3>Privacy Concerns</h3>
+            <p>Questions about our privacy practices?</p>
+            <a href="mailto:privacy@semanticgallery.app" class="btn btn-outline">Contact Privacy Team</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <div class="logo-icon">🧠</div>
+            <span class="logo-text">Semantic Gallery</span>
+          </div>
+
+          <div class="footer-links">
+            <a href="#features">Features</a>
+            <a href="#download">Download</a>
+            <a href="#privacy">Privacy</a>
+            <a href="/privacy-policy.html">Privacy Policy</a>
+            <a href="https://github.com/semanticgallery" target="_blank">GitHub</a>
+          </div>
+
+          <div class="footer-info">
+            <p>&copy; 2024 Semantic Gallery. Open source project.</p>
+            <p>Built with ❤️ for privacy-conscious users.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
